@@ -8,6 +8,7 @@ ssh ubuntu@172.31.13.92<<EOF
     nvm install v12.0.0
     npm install
     npm install -g nodemon pm2
+    ls
     pm2 restart ecosystem.config.js
     exit
 EOF
