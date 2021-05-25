@@ -1,4 +1,5 @@
-#!/bin/sh -x
+#!/bin/sh
+set -x
 ssh ubuntu@172.31.13.92<<EOF
     cd ~/node-app
     git pull origin master
